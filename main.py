@@ -39,5 +39,4 @@ async def send(inter, name:str, content:str):
 
 
 
-keep_alive.keep_alive()
-bot.run(os.getenv("TOKEN"))
+bot.run("TOKEN")
