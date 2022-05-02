@@ -8,7 +8,7 @@ import aiohttp
 
 
 intents = disnake.Intents().all()
-bot = commands.Bot(command_prefix="!", intents=intents,owner_id = 836773084056649818)
+bot = commands.Bot(command_prefix="!", intents=intents)
 bot.remove_command("help")
 
 @bot.event
